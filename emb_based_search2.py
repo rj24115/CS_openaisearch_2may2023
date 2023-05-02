@@ -93,7 +93,7 @@ def ask(
     if print_message:
         print(message)
     messages = [
-        {"role": "system", "content": "You are a helpful Creditspring help desk employee. "},
+        {"role": "system", "content": "You are a helpful Creditspring chat bot. "},
         {"role": "user", "content": message},
     ]
     response = openai.ChatCompletion.create(
